@@ -1,6 +1,6 @@
 import socket
 
-HOST = '10.1.6.188'
+HOST = raw_input("Enter the IP to be scanned:")
 PORT = 1
 
 for PORT in range(1, 1025):
